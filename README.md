@@ -19,4 +19,3 @@ detailing the technology used.
 -[] Develop locally on your computer
 -[] Deploy your site to the web using GitHub Pages
 -[] OPTIONAL: Buy a custom domain name and have it point to your GitHub Pages website
-
