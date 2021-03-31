@@ -8,45 +8,83 @@
          <meta name="description" content="">
          <meta name="viewport" content="width=device-width, initial-scale=1">
          <link rel="stylesheet" href="./resources/css/style.css">
+         <script src="https://kit.fontawesome.com/0d5d103b2a.js" crossorigin="anonymous"></script>
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
      </head>
      <body>
          <Header>
              <Nav>
-                <a href="#intro"><h2 id="yeo">YEO</h2></a>
+                <a href="#introSection" id="nameLogoLink"><h2 id="nameLogo">YEO</h2></a>
                  <ul>
-                     <li><a href="#aboutMe">About</a></li>
-                     <li><a href="#skills">Skills</a></li>
-                     <li><a href="#projects">Projects</a></li>
-                     <li><a href="#contactMe">Contact</a></li>
+                     <li><a href="#aboutMeSection" class="navLink">About</a></li>
+                     <li><a href="#skillSection" class="navLink">Skills</a></li>
+                     <li><a href="#projectSection" class="navLink">Projects</a></li>
+                     <li><a href="#contactMeSection" class="navLink">Contact</a></li>
                  </ul>
-                 <!--<a href="#intro"><img src="" alt=""></a>-->
              </Nav>
          </Header>
          <main>
-             <section id="intro">
-                <h1>Portfolio.</h1>
-                <p id="hi">Hi, my name is</p>
-                <p id="tomYeo">Tom Yeo</p>
-                <p>Hi, Thanks for visiting my portfolio. 
-                   I have recently decided to make a career change 
-                   and so I am currently on a journey to becoming developer.
-                   I have enrolled in the coding traineeship created by 'IT Career Switch'.
-                   Prior to starting the traineeship, I had no experience in any form of coding,
-                   so this portfolio is an exhibition of what I have learnt and my own professional development.</p>
+             <section id="introSection">
+                <h1>Portfolio<span class="contrastColor">.</span></h1>
+                <div>
+                    <p>Feel free to change the site appearance</p>
+                    <button>Light</button>
+                    <button>Dark</button>
+                </div>
+                <div class="flexLayout">
+                    <div id="portfolioIntro">
+                        <p id="preNameIntro">Hi, my name is</p>
+                        <p id="nameIntro">Tom Yeo</p>
+                        <p>Thanks for visiting my portfolio. 
+                        I have recently decided to make a career change 
+                        and so I am currently on a journey to becoming developer.
+                        I have enrolled in the coding traineeship created by 'IT Career Switch'.
+                        Prior to starting the traineeship, I had no experience in any form of coding,
+                        so this portfolio is an exhibition of what I have learnt and my own professional development.</p>
+                    </div>
+                    <div id="portrait">
+                        <figure>
+                            <img src="./resources/images/portrait.jpg" alt="Portrait of an old man in mosaic">
+                        </figure>
+                    </div>
+                </div>
+                   <a href=""><button>Resume</button></a>
 
              </section>
-             <section id="aboutMe">
+             <section id="aboutMeSection">
                 <h2>About Me</h2>
+                    I have spent the last five years working as a end user and system administration trainer in the telecomms industry.
+                    I have a 2.1 BA Hons degree from Liverpool John Moores University in Fashion Design and Manufacturing.
+                    After University I travelled North America and Canada, Panama, Columbia and Australia. 
+                    Previously I have worked within the customer service industry and also the building industry.
+                    I have always enjoyed creating things and challenging myself.
+                    
+                    In my spare time, I enjoy gaming, Running, cycling, watching motorsports, exploring new places with my partner, being socialable
+                    and I have also been rebuilding a 1990 mini cooper over the years.
              </section>
-             <section id="skills">
+             <section id="skillSection">
                  <h2>My Skills</h2>
-
+                 <i class="fab fa-html5"></i>
+                 <i class="fab fa-css3-alt"></i>
+                 <i class="fab fa-bootstrap"></i>
+                 <i class="fab fa-js"></i>
+                 <i class="fab fa-python"></i>
+                 <i class="fab fa-github"></i>
+                 <i class="fab fa-git"></i>
             </section>
-             <section id="projects">
+             <section id="projectSection">
                 <h2>Projects</h2>
+                <figure>
+                    <a href="https://tomy-26.github.io/TowcesterCC/"><img src="./resources/images/TowcesterCC.PNG" alt="Image of Cycling Website" id="towcesterCC"></a>
+                    <figcaption>Local Club Website Project</figcaption>
+                </figure>
              </section>
-             <section id="contactMe">
+             <section id="contactMeSection">
                 <h2>Contact Me</h2>
+                <p>I am looking for new opportunities for work, If you would like to know more about me plaease feel free to contact me!</p>
+                <form action="">
+                    <button>Contact Me</button>
+                </form>
              </section>
          </main>
          <footer>
