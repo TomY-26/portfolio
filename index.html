@@ -14,8 +14,17 @@
      <body>
          <Header>
              <Nav>
+                <div class="mobile menu">
+                    <i class="fas fa-bars fa-2x" id="icon"></i>
+                    <div class="dropDown">
+                        <a href="#aboutMeSection" class="navLink">About</a>
+                        <a href="#skillSection" class="navLink">Skills</a>
+                        <a href="#projectSection" class="navLink">Projects</a>
+                        <a href="#contactMeSection" class="navLink">Contact</a>
+                    </div>
+                </div>
                 <a href="#introSection" id="nameLogoLink"><h2 id="nameLogo">YEO</h2></a>
-                 <ul>
+                 <ul class="desktop menu">
                      <li><a href="#aboutMeSection" class="navLink">About</a></li>
                      <li><a href="#skillSection" class="navLink">Skills</a></li>
                      <li><a href="#projectSection" class="navLink">Projects</a></li>
@@ -26,7 +35,7 @@
          <main>
              <section id="introSection">
                 <h1>Portfolio<span class="contrastColor">.</span></h1>
-                <div>
+                <div id="changeSiteColor">
                     <p>Feel free to change the site appearance</p>
                     <button>Light</button>
                     <button>Dark</button>
@@ -35,11 +44,11 @@
                     <div id="portfolioIntro">
                         <p id="preNameIntro">Hi, my name is</p>
                         <p id="nameIntro">Tom Yeo</p>
-                        <p>Thanks for visiting my portfolio. 
-                        I have recently decided to make a career change 
-                        and so I am currently on a journey to becoming developer.
-                        I have enrolled in the coding traineeship created by 'IT Career Switch'.
-                        Prior to starting the traineeship, I had no experience in any form of coding,
+                        <p>Thanks for visiting my portfolio.</p>
+                        <p>I have recently decided to make a career change 
+                        and so I am currently on a journey to becoming developer.</p>
+                        <p>I have enrolled in the coding traineeship created by 'IT Career Switch'.</p>
+                        <p>Prior to starting the traineeship, I had no experience in any form of coding,
                         so this portfolio is an exhibition of what I have learnt and my own professional development.</p>
                     </div>
                     <div id="portrait">
@@ -48,29 +57,32 @@
                         </figure>
                     </div>
                 </div>
+                <div id="resume">
                    <a href=""><button>Resume</button></a>
-
+                </div>
              </section>
              <section id="aboutMeSection">
                 <h2>About Me</h2>
-                    I have spent the last five years working as a end user and system administration trainer in the telecomms industry.
-                    I have a 2.1 BA Hons degree from Liverpool John Moores University in Fashion Design and Manufacturing.
-                    After University I travelled North America and Canada, Panama, Columbia and Australia. 
-                    Previously I have worked within the customer service industry and also the building industry.
-                    I have always enjoyed creating things and challenging myself.
+                    <p>I have spent the last five years working as a end user and system administration trainer in the telecomms industry.</p>
+                    <p>I have a 2.1 BA Hons degree from Liverpool John Moores University in Fashion Design and Manufacturing.</p>
+                    <p>After University I travelled North America and Canada, Panama, Columbia and Australia.</p>
+                    <p>Previously I have worked within the customer service industry and also the building industry.</p>
+                    <p></p>I have always enjoyed creating things and challenging myself.</p>
                     
-                    In my spare time, I enjoy gaming, Running, cycling, watching motorsports, exploring new places with my partner, being socialable
-                    and I have also been rebuilding a 1990 mini cooper over the years.
+                    <p>In my spare time, I enjoy gaming, Running, cycling, watching motorsports, exploring new places with my partner, being socialable     
+                    and I have also been rebuilding a 1990 mini cooper over the years.</p>
              </section>
              <section id="skillSection">
                  <h2>My Skills</h2>
-                 <i class="fab fa-html5"></i>
-                 <i class="fab fa-css3-alt"></i>
-                 <i class="fab fa-bootstrap"></i>
-                 <i class="fab fa-js"></i>
-                 <i class="fab fa-python"></i>
-                 <i class="fab fa-github"></i>
-                 <i class="fab fa-git"></i>
+                 <div id="skillIcons">
+                    <i class="fab fa-html5 fa-3x"></i>
+                    <i class="fab fa-css3-alt fa-3x"></i>
+                    <i class="fab fa-bootstrap fa-3x"></i>
+                    <i class="fab fa-js fa-3x"></i>
+                    <i class="fab fa-python fa-3x"></i>
+                    <i class="fab fa-github fa-3x"></i>
+                    <i class="fab fa-git fa-3x"></i>
+                </div>
             </section>
              <section id="projectSection">
                 <h2>Projects</h2>
@@ -81,10 +93,12 @@
              </section>
              <section id="contactMeSection">
                 <h2>Contact Me</h2>
-                <p>I am looking for new opportunities for work, If you would like to know more about me plaease feel free to contact me!</p>
-                <form action="">
-                    <button>Contact Me</button>
-                </form>
+                <div id="contact">
+                    <p>I am looking for new opportunities for work, If you would like to know more about me plaease feel free to contact me!</p>
+                    <form action="">
+                        <button>Contact Me</button>
+                    </form>
+                </div>
              </section>
          </main>
          <footer>
