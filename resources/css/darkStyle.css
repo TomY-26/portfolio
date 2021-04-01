@@ -184,17 +184,15 @@ figcaption{
     margin: 0 auto;
     text-align: center;
 }
-#projectSection img{
-    opacity: .8;
-}
-#projectSection img:hover {
+.projectImg:hover {
     opacity: 1;
     background-color: transparent;
 }
-#projectSection img {
+.projectImg {
     max-width: 100%;
     max-height: 100%;
     box-shadow: 6px 8px #B6ED12;
+    opacity: .8;
 }
 /*-------------------------------------------------------------------------Contact Section------------------------------------------------------------------------------*/
 #contactMeSection {
