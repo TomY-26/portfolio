@@ -22,7 +22,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navBar").style.top = "0";
   } else {
-    document.getElementById("navBar").style.top = "-5.25rem";
+    document.getElementById("navBar").style.top = "-7.125rem";
   }
   prevScrollpos = currentScrollPos;
 }

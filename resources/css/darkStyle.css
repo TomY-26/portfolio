@@ -74,10 +74,27 @@ button:hover {
 #projectSection h2 {
     color: #B6ED12;
 }
-.projectImg {
+.gridImg figure{
+    background: linear-gradient(#B6ED12, #393e46);
+    z-index: 5;
     box-shadow: 6px 8px #B6ED12;
 }
 /*-------------------------------------------------------------------------Contact Section------------------------------------------------------------------------------*/
 #contactMeSection h2 {
     color: #B6ED12;
+}
+
+/*----------------------*/
+/*-------------------------------------------------------------------------Tablet Screen Sizes-------------------------------------------------------------------------*/
+/*----------------------*/
+@media only screen and (min-width: 540px) {
+
+    .navLink {
+        text-decoration: none;
+        color: #f9f9f9;
+    }
+
+    .navLink:visited {
+    color: #f9f9f9;
+    }
 }
