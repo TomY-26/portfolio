@@ -7,13 +7,13 @@
          <title>Tom Yeo Portfolio</title>
          <meta name="description" content="">
          <meta name="viewport" content="width=device-width, initial-scale=1">
-         <link rel="stylesheet" href="./resources/css/darkStyle.css">
+         <link id="pageStyle" rel="stylesheet" href="./resources/css/lightStyle.css">
          <script src="https://kit.fontawesome.com/0d5d103b2a.js" crossorigin="anonymous"></script>
          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
      </head>
      <body>
          <Header>
-             <Nav>
+             <Nav id="navBar">
                 <div class="mobile menu">
                     <i class="fas fa-bars fa-2x" id="icon"></i>
                     <div class="dropDown">
@@ -37,7 +37,7 @@
                 <h1>Portfolio<span class="contrastColor">.</span></h1>
                 <div id="changeSiteColor">
                     <p>Feel free to change the site appearance</p>
-                    <button id="changeColour">Dark</button>
+                    <button id="changeColour" onclick="changeStyleColour()">Dark</button>
                 </div>
                 <div class="flexLayout">
                     <div id="portfolioIntro">
@@ -100,6 +100,6 @@
                 </div>
              </section>
          </main>       
-         <script src="" async defer></script>
+         <script src="./resources/javaScript/script.js" async defer></script>
      </body>
  </html>

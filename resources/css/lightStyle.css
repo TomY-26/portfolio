@@ -36,7 +36,7 @@ figcaption{
     font-size: 1.25rem;
 }
 /*-------------------------------------------------------------------------Nav Section------------------------------------------------------------------------------*/
-nav {
+#navBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,6 +48,7 @@ nav {
     top: 0;
     background-color: #f9f9f9;
     border-bottom: solid 2px #f05454;
+    transition: 0.4s;
 }
 .desktop {
     display: none;
