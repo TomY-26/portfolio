@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -129,11 +132,14 @@ button:focus {
 #skillSection h2 {
     margin-bottom: 2rem;
 }
-#skillIcons {
+#skillsSmall {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
+}
+#skillsBig {
+    display: none;
 }
 /*-------------------------------------------------------------------------Projects Section------------------------------------------------------------------------------*/
 #projectSection {
@@ -278,6 +284,18 @@ footer {
 }    
 
 @media only screen and (min-width: 1100px) {
+    #skillsSmall {
+        display: none;
+    }
+    #skillsBig {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .fab {
+        padding: 0 2rem;
+    }
     #projectGrid {
         grid-template: repeat(2, minmax(min-content, max-content)) / 1fr 1fr 1fr  ;
     }
